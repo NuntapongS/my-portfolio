@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.Title {
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+}
+
+.Sub-title {
+  font-size: 1.5em;
+  font-weight: medium;
+  color: blue;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
