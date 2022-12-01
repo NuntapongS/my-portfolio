@@ -28,16 +28,31 @@
   color: #61dafb;
 }
 
-.Title {
+.title {
   font-size: 2em;
+  font-weight: medium;
   font-weight: bold;
   color: red;
 }
 
-.Sub-title {
-  font-size: 1.5em;
-  font-weight: medium;
-  color: blue;
+.sub-title {
+  font-size: 0.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.boreder-form1 {
+  border-style: solid;
+  border-color: purple;
+}
+
+.boreder-form2 {
+  border-style: solid;
+  border-color: green;
+}
+
+.flex-container {
+  display: flex;
 }
 
 @keyframes App-logo-spin {
