@@ -36,23 +36,27 @@
 }
 
 .sub-title {
-  font-size: 0.5em;
+  font-size: 2.0em;
   font-weight: bold;
   color: black;
 }
 
-.boreder-form1 {
-  border-style: solid;
-  border-color: purple;
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 30px;
 }
 
-.boreder-form2 {
-  border-style: solid;
-  border-color: green;
+.content {
+  font-size: 1.5em;
 }
 
-.flex-container {
-  display: flex;
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {

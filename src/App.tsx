@@ -3,11 +3,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="title">
-        My Identity
-        <div className="sub-title boreder-form1">ฟอร์มที่ 1</div>
-        <div className="sub-title boreder-form2">ฟอร์มที่ 2</div>
+      <div className="title header">My Identity</div>
+      <div className="topnav">
+        <span>Learn For You're Future</span>
       </div>
+      <div className="sub-title">Introduct your're self</div>
     </>
   );
 }
