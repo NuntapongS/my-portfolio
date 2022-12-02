@@ -3,9 +3,17 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="title header">My Identity</div>
+      <div className="header">My Identity</div>
       <div className="topnav">
-        <span>Learn For You're Future</span>
+        <b>
+          <a href="Intro">Intro</a>
+        </b>
+        <b>
+          <a href="Hello World">Hello World</a>
+        </b>
+        <b>
+          <a href="My Adventure">My Adventure</a>
+        </b>
       </div>
       <div className="sub-title">Introduct your're self</div>
     </>
