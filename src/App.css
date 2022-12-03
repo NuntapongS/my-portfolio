@@ -44,7 +44,7 @@
   text-shadow: 7px 7px 10px blue;
   font-weight: bold;
   font-size: 3.0em;
-  background-image: url(../image/wp308927.webp);
+  background-image: url(../image/black-and-green-modern-material-header-with-a-hexagonal-mesh-design-banner-with-polygonal-grid-and-blank-space-for-your-logo-abstract-website-design-vector.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -57,7 +57,8 @@
   overflow: hidden;
   padding: 30px;
   border-style: solid;
-  border-color: white;
+  border-color: black;
+  background-image: url(../image/ps-menu_1.jpg);
 }
 
 @media only screen and (min-width: 100px) {
