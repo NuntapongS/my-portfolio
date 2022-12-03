@@ -39,11 +39,14 @@
 .header {
   background-color: #F1F1F1;
   text-align: center;
-  padding: 35px;
-  color: black;
-  text-shadow: 2px 2px 5px red;
+  padding: 50px;
+  color: mediumspringgreen;
+  text-shadow: 7px 7px 10px blue;
   font-weight: bold;
   font-size: 3.0em;
+  background-image: url(../image/wp308927.webp);
+  background-size: cover;
+  background-position: center;
 }
 
 .content {
@@ -52,14 +55,28 @@
 
 .topnav {
   overflow: hidden;
-  background-color: black;
-  color: white;
   padding: 30px;
+  border-style: solid;
+  border-color: white;
+}
+
+@media only screen and (min-width: 100px) {
+  .topnav {
+    background-color: black;
+  }
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: black;
+  color: mediumspringgreen;
+  border-style: static; 
+  border-color: white;
+}
+
+@media only screen and (max-width: 550px){
+  .topnav a {
+    display: flex;
+  }
 }
 
 a {
@@ -68,7 +85,7 @@ a {
 }
 
 b {
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .footer {
