@@ -1,5 +1,4 @@
 import "./App.css";
-
 function App() {
   return (
     <>
@@ -15,7 +14,10 @@ function App() {
           <a href="My Adventure">My Adventure</a>
         </b>
       </div>
-      <div className="sub-title">Introduct your're self</div>
+      <div className="body">
+        <div className="head-content">Hello</div>
+      </div>
+      <div className="footer">Hello</div>
     </>
   );
 }
