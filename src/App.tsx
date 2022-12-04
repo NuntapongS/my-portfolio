@@ -1,5 +1,5 @@
 import "./App.css";
-import profile from "./image/S__8454147.jpg";
+import WhoAmI from "./components/whoAmI";
 
 function App() {
   return (
@@ -16,12 +16,7 @@ function App() {
           <a href="My Adventure">My Adventure</a>
         </b>
       </div>
-      <div className="body">
-        <div className="head-content">
-          Hello<div className="content">sawaddee</div>
-        </div>
-        <img src={profile} className="img" alt="" />
-      </div>
+      <WhoAmI />
       <div className="footer">Hello</div>
     </>
   );
