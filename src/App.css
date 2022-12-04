@@ -33,6 +33,7 @@
   padding-top: 10px;
   padding-bottom: 450px;
   padding-left: 30px;
+  padding-right: 150px;
   display: flex;
 }
 
@@ -100,7 +101,7 @@ b {
 }
 
 .img {
-  border: 1px solid #ddd;
+  border: 6px solid #FFCD15;
   border-radius: 50%;
   padding: 5px;
   width: 300px;

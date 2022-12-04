@@ -7,7 +7,7 @@ const WhoAmI = () => {
         eiei
         <div className="content">sawaddee</div>
       </div>
-      <img src={profile} className="img" alt="" />
+      <img src={profile} className="img" alt="profile" />
     </div>
   );
 };
