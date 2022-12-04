@@ -33,12 +33,14 @@
   padding-top: 10px;
   padding-bottom: 450px;
   padding-left: 30px;
+  display: flex;
 }
 
 .head-content {
   color: white;
   font-size: 30px;
   font-weight: bold;
+  padding-right: 70%;
 }
 
 .header {
@@ -49,7 +51,7 @@
   text-shadow: 4px 4px 7px mediumvioletred;
   font-weight: bold;
   font-size: 3.0em;
-  background-image: url(../image/black-and-green-modern-material-header-with-a-hexagonal-mesh-design-banner-with-polygonal-grid-and-blank-space-for-your-logo-abstract-website-design-vector.jpg);
+  background-image: url(./image/black-and-green-modern-material-header-with-a-hexagonal-mesh-design-banner-with-polygonal-grid-and-blank-space-for-your-logo-abstract-website-design-vector.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -59,7 +61,7 @@
   padding: 30px;
   border-style: solid;
   border-color: black;
-  background-image: url(../image/ps-menu_1.jpg);
+  background-image: url(./image/ps-menu_1.jpg);
   text-align: right;
   font-size: 15px;
 }
@@ -88,6 +90,17 @@ a {
 
 b {
   margin-right: 100px;
+}
+
+.img {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  background-image: url(./image/S__8454147.jpg);;
+  margin-top: 50px;
 }
 
 .footer {
