@@ -17,7 +17,9 @@ function App() {
         </b>
       </div>
       <div className="body">
-        <div className="head-content">eiei</div>
+        <div className="head-content">
+          Hello<div className="content">sawaddee</div>
+        </div>
         <img src={profile} className="img" alt="" />
       </div>
       <div className="footer">Hello</div>
