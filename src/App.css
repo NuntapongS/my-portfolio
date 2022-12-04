@@ -39,16 +39,17 @@
 
 .head-content {
   color: white;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: bold;
-  padding-right: 70%;
+  padding-right: 60%;
   margin-top: 50px;
+  margin-left: 100px;
 }
 
 .content {
   color: white;
-  font-size: 15px;
-  padding-right: 70%;
+  font-size: 36px;
+  padding-right: 60%;
 }
 
 .header {

@@ -4,8 +4,8 @@ const WhoAmI = () => {
   return (
     <div className="body">
       <div className="head-content">
-        eiei
-        <div className="content">sawaddee</div>
+        Hello
+        <div className="content">Pat</div>
       </div>
       <img src={profile} className="img" alt="profile" />
     </div>
