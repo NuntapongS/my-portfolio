@@ -5,8 +5,9 @@ const WhoAmI = () => {
     <div className="body">
       <div className="head-content">
         Hello
-        <div className="content">Pat</div>
+        <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
       </div>
+
       <img src={profile} className="img" alt="profile" />
     </div>
   );
