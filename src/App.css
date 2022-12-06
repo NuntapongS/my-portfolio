@@ -41,20 +41,20 @@
   color: #FFCD15;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 50px;
-  margin-left: 100px;
-  padding-right: 180px;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding-right: 50px;
  }
 
 .sub-content {
   color: mediumspringgreen;
-  font-size: 26px;
-  padding-right: 180px;
+  font-size: 34px;
+  padding-right: 50px;
 }
 
 .content {
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   padding-right: 180px;
 }
 
@@ -111,8 +111,8 @@ b {
   border: 6px solid #FFCD15;
   border-radius: 50%;
   padding: 5px;
-  width: 300px;
-  height: 300px;
+  width: 450px;
+  height: 350px;
   object-fit: cover;
   background-image: url(./image/S__8454147.jpg);;
   margin-top: 50px;
