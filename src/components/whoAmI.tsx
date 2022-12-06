@@ -1,14 +1,18 @@
 import profile from "../image/S__8454147.jpg";
-import eiei from "../lang/word.json";
+import { default as myBelieve, default as myJob } from "../lang/word.json";
 
 const WhoAmI = () => {
-  const word: { eiei: string } = eiei;
+  const job: { myJob: string } = myJob;
+  const believe: { myBelieve: string } = myBelieve;
   return (
     <div className="body">
       <div className="head-content">
         Hello
         <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
-        <h2 className="content">{word.eiei}</h2>
+        <h2 className="content">
+          {job.myJob}
+          {believe.myBelieve}
+        </h2>
       </div>
 
       <img src={profile} className="img" alt="profile" />
