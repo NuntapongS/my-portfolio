@@ -52,6 +52,12 @@
   padding-right: 180px;
 }
 
+.content {
+  color: white;
+  font-size: 15px;
+  padding-right: 180px;
+}
+
 .header {
   background-color: #F1F1F1;
   text-align: center;
