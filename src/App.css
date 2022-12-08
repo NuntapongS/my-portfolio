@@ -54,8 +54,8 @@
 
 .content {
   color: white;
-  font-size: 20px;
-  padding-right: 180px;
+  font-size: 18px;
+  padding-right: 200px;
 }
 
 .header {
@@ -111,7 +111,7 @@ b {
   border: 6px solid #FFCD15;
   border-radius: 50%;
   padding: 5px;
-  width: 500px;
+  width: 550px;
   height: 350px;
   object-fit: cover;
   background-image: url(./image/S__8454147.jpg);;
