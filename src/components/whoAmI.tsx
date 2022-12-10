@@ -12,15 +12,35 @@ const WhoAmI = () => {
   return (
     <div className="body">
       <div className="head-content">
-        Hello
-        <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
-        <h2 className="content">
-          {job.myJob}
-          {believe.myBelieve}
-          {skill.mySkills}
-        </h2>
+        <div>
+          Hello
+          <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
+          <h2 className="content">
+            {job.myJob}
+            {believe.myBelieve}
+            {skill.mySkills}
+          </h2>
+        </div>
+        <div>
+          {" "}
+          <img src={profile} className="img" alt="profile" />
+        </div>
       </div>
-      <img src={profile} className="img" alt="profile" />
+      <div className="head-content flex-reverse">
+        <div>
+          Hello
+          <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
+          <h2 className="content">
+            {job.myJob}
+            {believe.myBelieve}
+            {skill.mySkills}
+          </h2>
+        </div>
+        <div>
+          {" "}
+          <img src={profile} className="img" alt="profile" />
+        </div>
+      </div>
     </div>
   );
 };

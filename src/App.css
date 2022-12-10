@@ -30,11 +30,8 @@
 
 .body {
   background-color: black;
-  padding-top: 10px;
-  padding-bottom: 450px;
-  padding-left: 30px;
-  padding-right: 150px;
   display: flex;
+  flex-direction: column;
 }
 
 .head-content {
@@ -43,19 +40,29 @@
   font-weight: bold;
   margin-top: 100px;
   margin-left: 50px;
-  padding-right: 50px;
+  display: flex;
+  width: 100%;
+ }
+
+ .head-content div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  width: 50%;  
+ }
+
+ .head-content div:nth-child(2) {
+  display: flex;
+  width: 50%;  
  }
 
 .sub-content {
   color: mediumspringgreen;
   font-size: 34px;
-  padding-right: 50px;
 }
 
 .content {
   color: white;
   font-size: 18px;
-  padding-right: 200px;
 }
 
 .header {
@@ -110,8 +117,6 @@ b {
 .img {
   border: 6px solid #FFCD15;
   border-radius: 50%;
-  padding: 5px;
-  width: 550px;
   height: 350px;
   object-fit: cover;
   background-image: url(./image/S__8454147.jpg);;
@@ -123,6 +128,11 @@ b {
   text-align: center;
   padding: 30px;
   color: black;
+}
+
+.flex-reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 @keyframes App-logo-spin {
