@@ -28,13 +28,9 @@ const WhoAmI = () => {
       </div>
       <div className="head-content flex-reverse">
         <div>
-          Hello
+          About Me
           <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
-          <h2 className="content">
-            {job.myJob}
-            {believe.myBelieve}
-            {skill.mySkills}
-          </h2>
+          <h2 className="content">eiei</h2>
         </div>
         <div>
           {" "}
