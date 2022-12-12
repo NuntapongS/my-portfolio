@@ -29,7 +29,6 @@ const WhoAmI = () => {
       <div className="head-content flex-reverse">
         <div>
           About Me
-          <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
           <h2 className="content">eiei</h2>
         </div>
         <div>
