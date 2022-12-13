@@ -1,6 +1,7 @@
 import profile from "../image/S__8454147.jpg";
 import {
   default as myBelieve,
+  default as myInterview,
   default as myJob,
   default as mySkills,
 } from "../lang/word.json";
@@ -9,6 +10,7 @@ const WhoAmI = () => {
   const job: { myJob: string } = myJob;
   const believe: { myBelieve: string } = myBelieve;
   const skill: { mySkills: string } = mySkills;
+  const interview: { myInterview: string } = myInterview;
   return (
     <div className="body">
       <div className="head-content">
@@ -28,7 +30,10 @@ const WhoAmI = () => {
       <div className="head-content flex-reverse">
         <div>
           About Me
-          <h2 className="content">eiei</h2>
+          <h2 className="content">
+            {interview.myInterview}
+            {skill.mySkills}
+          </h2>
         </div>
         <div>
           {" "}
