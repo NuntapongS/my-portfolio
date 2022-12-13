@@ -18,7 +18,6 @@ const WhoAmI = () => {
           <h2 className="content">
             {job.myJob}
             {believe.myBelieve}
-            {skill.mySkills}
           </h2>
         </div>
         <div>
