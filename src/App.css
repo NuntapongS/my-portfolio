@@ -115,12 +115,23 @@ b {
   margin-right: 100px;
 }
 
-.img {
+.img1 {
   border: 6px solid #FFCD15;
   border-radius: 50%;
   height: 350px;
   object-fit: cover;
   background-image: url(./image/S__8454147.jpg);
+  margin-bottom: 50px;
+  margin-left: 100px;
+  width: 400px;
+}
+
+.img2 {
+  border: 6px solid #FFCD15;
+  border-radius: 50%;
+  height: 350px;
+  object-fit: scale-down;
+  background-image: url(./image/15747616_1432756206764503_7783558084339154744_n.jpg);
   margin-bottom: 50px;
   margin-left: 100px;
   width: 400px;

@@ -1,4 +1,5 @@
-import profile from "../image/S__8454147.jpg";
+import profile2 from "../image/15747616_1432756206764503_7783558084339154744_n.jpg";
+import profile1 from "../image/S__8454147.jpg";
 import {
   default as myBelieve,
   default as myInterview,
@@ -27,7 +28,7 @@ const WhoAmI = () => {
         </div>
         <div>
           {" "}
-          <img src={profile} className="img" alt="profile" />
+          <img src={profile1} className="img1" alt="profile1" />
         </div>
       </div>
       <div className="head-content flex-reverse">
@@ -40,7 +41,7 @@ const WhoAmI = () => {
         </div>
         <div>
           {" "}
-          <img src={profile} className="img" alt="profile" />
+          <img src={profile2} className="img2" alt="profile2" />
         </div>
       </div>
     </div>
