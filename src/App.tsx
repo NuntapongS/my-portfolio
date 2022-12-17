@@ -1,6 +1,6 @@
 import "./App.css";
+import MySkills from "./components/mySkills";
 import WhoAmI from "./components/whoAmI";
-
 function App() {
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
         </b>
       </div>
       <WhoAmI />
+      <MySkills />
       <div className="footer">Hello</div>
     </>
   );
