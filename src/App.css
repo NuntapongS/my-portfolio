@@ -67,7 +67,6 @@
 }
 
 .header {
-  background-color: #F1F1F1;
   text-align: center;
   padding: 50px;
   color: #FFCD15;
@@ -135,6 +134,13 @@ b {
   margin-bottom: 50px;
   margin-left: 100px;
   width: 400px;
+}
+
+.skill {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: mediumspringgreen
 }
 
 .footer {
