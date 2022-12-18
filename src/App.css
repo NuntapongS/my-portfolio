@@ -140,7 +140,8 @@ b {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  color: mediumspringgreen
+  color: mediumspringgreen;
+  
 }
 
 .footer {
@@ -153,6 +154,13 @@ b {
 .flex-reverse {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.head-language {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
