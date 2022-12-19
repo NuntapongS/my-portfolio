@@ -4,7 +4,6 @@ import {
   default as myBelieve,
   default as myInterview,
   default as myJob,
-  default as mySkills,
   default as myWebsite,
 } from "../lang/word.json";
 
@@ -12,7 +11,6 @@ const WhoAmI = () => {
   const job: { myJob: string } = myJob;
   const believe: { myBelieve: string } = myBelieve;
   const site: { myWebsite: string } = myWebsite;
-  const skill: { mySkills: string } = mySkills;
   const interview: { myInterview: string } = myInterview;
   return (
     <div className="body">
@@ -34,10 +32,7 @@ const WhoAmI = () => {
       <div className="head-content flex-reverse">
         <div>
           About Me
-          <h2 className="content">
-            {interview.myInterview}
-            {skill.mySkills}
-          </h2>
+          <h2 className="content">{interview.myInterview}</h2>
         </div>
         <div>
           {" "}
