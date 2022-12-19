@@ -1,14 +1,20 @@
-import { default as backendSkills } from "../lang/word.json";
+import {
+  default as backendSkills,
+  default as frontendSkills,
+} from "../lang/word.json";
 
 const mySkills = () => {
   const backend: { backendSkills: string } = backendSkills;
+  const frontend: { frontendSkills: string } = frontendSkills;
   return (
     <div className="body">
       <div className="skill">My Skills</div>
-      <li className="head-language">
+      <li className="backend-language">
         Backend Skills : {backend.backendSkills}
       </li>
-      <li className="head-language">Frontend Kills : </li>
+      <li className="frontend-language">
+        Frontend Skills : {frontend.frontendSkills}
+      </li>
     </div>
   );
 };

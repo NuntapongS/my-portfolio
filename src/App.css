@@ -156,11 +156,19 @@ b {
   flex-direction: row-reverse;
 }
 
-.head-language {
+.backend-language {
   text-align: center;
   color: white;
   margin-top: 50px;
   font-weight: bold;
+}
+
+.frontend-language {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-weight: bold; 
+  margin-bottom: 50px;
 }
 
 @keyframes App-logo-spin {

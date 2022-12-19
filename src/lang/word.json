@@ -4,5 +4,6 @@
   "myWebsite": "This website was created to hone my frontend skills.",
   "mySkills": "I am backend developer with experience in Java, SpringBoot, Golang, MySQL, MongoDB, Redis etc.",
   "myInterview": "My name is nuntapong (pat) siripanyawong. ",
-  "backendSkills": "java, springboot, golang, nodejs, express, mySQL, MongoDB"
+  "backendSkills": "java, springboot, golang, nodejs, express, mySQL, MongoDB",
+  "frontendSkills": "javaScripts, typeScripts, react, angular, css"
 }
