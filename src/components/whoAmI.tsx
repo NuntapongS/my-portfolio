@@ -1,16 +1,8 @@
 import profile2 from "../image/15747616_1432756206764503_7783558084339154744_n.jpg";
 import profile1 from "../image/S__8454147.jpg";
-import {
-  default as myBelieve,
-  default as myInterview,
-  default as myJob,
-  default as myWebsite,
-} from "../lang/word.json";
+import { default as myInterview } from "../lang/word.json";
 
 const WhoAmI = () => {
-  const job: { myJob: string } = myJob;
-  const believe: { myBelieve: string } = myBelieve;
-  const site: { myWebsite: string } = myWebsite;
   const interview: { myInterview: string } = myInterview;
   return (
     <div className="body">
@@ -18,11 +10,7 @@ const WhoAmI = () => {
         <div>
           Hello
           <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
-          <h2 className="content">
-            {job.myJob}
-            {believe.myBelieve}
-            {site.myWebsite}
-          </h2>
+          <h2 className="content">""</h2>
         </div>
         <div>
           {" "}
