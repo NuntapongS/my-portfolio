@@ -27,11 +27,11 @@ const WhoAmI = () => {
           <h2 className="content">{interview1.myInterview1}</h2>
           <h2 className="content">{interview2.myInterview2}</h2>
           <h2 className="interest">💡 My Interesting</h2>
-          <li className="content">Full-stack development</li>
+          <li className="content">Full-stack Development</li>
           <li className="content">UX/UI</li>
-          <li className="content">Communication skill</li>
+          <li className="content">Communication Skill</li>
           <li className="content">Scrum & Agile</li>
-          <li className="content">Mobile development</li>
+          <li className="content">Mobile Development</li>
         </div>
         <div>
           {" "}
