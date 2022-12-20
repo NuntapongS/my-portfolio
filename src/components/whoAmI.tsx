@@ -1,9 +1,13 @@
 import profile2 from "../image/15747616_1432756206764503_7783558084339154744_n.jpg";
 import profile1 from "../image/S__8454147.jpg";
-import { default as myInterview } from "../lang/word.json";
+import {
+  default as myInterview1,
+  default as myInterview2,
+} from "../lang/word.json";
 
 const WhoAmI = () => {
-  const interview: { myInterview: string } = myInterview;
+  const interview1: { myInterview1: string } = myInterview1;
+  const interview2: { myInterview2: string } = myInterview2;
   return (
     <div className="body">
       <div className="head-content">
@@ -19,9 +23,10 @@ const WhoAmI = () => {
       </div>
       <div className="head-content flex-reverse">
         <div>
-          About Me
-          <h2 className="content">{interview.myInterview}</h2>
-          <h2 className="interest">My Interesting</h2>
+          📢 About Me
+          <h2 className="content">{interview1.myInterview1}</h2>
+          <h2 className="content">{interview2.myInterview2}</h2>
+          <h2 className="interest">💡 My Interesting</h2>
           <li className="content">Full-stack development</li>
           <li className="content">UX/UI</li>
           <li className="content">Communication skill</li>
