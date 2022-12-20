@@ -33,6 +33,12 @@ const WhoAmI = () => {
         <div>
           About Me
           <h2 className="content">{interview.myInterview}</h2>
+          <h2 className="interest">My Interesting</h2>
+          <li className="content">Full-stack development</li>
+          <li className="content">UX/UI</li>
+          <li className="content">Communication skill</li>
+          <li className="content">Scrum & Agile</li>
+          <li className="content">Mobile development</li>
         </div>
         <div>
           {" "}
