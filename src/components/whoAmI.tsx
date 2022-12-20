@@ -32,6 +32,7 @@ const WhoAmI = () => {
           <li className="content">Communication Skill</li>
           <li className="content">Scrum & Agile</li>
           <li className="content">Mobile Development</li>
+          <li className="content">Automate Test</li>
         </div>
         <div>
           {" "}
