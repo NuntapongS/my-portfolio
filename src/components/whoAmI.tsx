@@ -12,7 +12,7 @@ const WhoAmI = () => {
     <div className="body">
       <div className="head-content">
         <div>
-          Hello
+          Hello World !
           <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
           <h2 className="content">""</h2>
         </div>
