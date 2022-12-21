@@ -10,10 +10,13 @@ function App() {
           <a href="Intro">Intro</a>
         </b>
         <b>
-          <a href="Hello World">Hello World</a>
+          <a href="Hello World">About Me</a>
         </b>
         <b>
-          <a href="My Adventure">My Adventure</a>
+          <a href="My Adventure">My Interesting</a>
+        </b>
+        <b>
+          <a href="My Skills">My Skills</a>
         </b>
       </div>
       <WhoAmI />
