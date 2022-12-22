@@ -149,14 +149,18 @@ b {
   font-weight: bold;
   color: mediumspringgreen;
   margin-top: 50px;
-  
+}
+
+.social {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .footer {
-  background-color: #F1F1F1;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   color: black;
+  background-image: url(./image/ps-menu_1.jpg);
 }
 
 .flex-reverse {

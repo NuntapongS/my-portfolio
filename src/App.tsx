@@ -21,7 +21,17 @@ function App() {
       </div>
       <WhoAmI />
       <MySkills />
-      <div className="footer">Hello</div>
+      <div className="footer">
+        <div className="social">
+          <a href="https://web.facebook.com/bloodzlu5t/">Facebook</a>
+        </div>
+        <div className="social">
+          <a href="https://www.instagram.com/nuntapong.sr/">Instagram</a>
+        </div>
+        <div className="social">
+          <a href="https://github.com/NuntapongS">GitHub</a>
+        </div>
+      </div>
     </>
   );
 }
