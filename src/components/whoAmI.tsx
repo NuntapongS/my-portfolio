@@ -14,7 +14,9 @@ const WhoAmI = () => {
         <div>
           Hello World !
           <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
-          <h2 className="content">""</h2>
+          <h2 className="content">
+            "I did this web for train my frontend skills"
+          </h2>
         </div>
         <div>
           {" "}
