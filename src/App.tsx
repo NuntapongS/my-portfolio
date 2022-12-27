@@ -23,13 +23,28 @@ function App() {
       <MySkills />
       <div className="footer">
         <div className="social">
-          <a href="https://web.facebook.com/bloodzlu5t/">Facebook</a>
-        </div>
-        <div className="social">
-          <a href="https://www.instagram.com/nuntapong.sr/">Instagram</a>
-        </div>
-        <div className="social">
-          <a href="https://github.com/NuntapongS">GitHub</a>
+          <a
+            href="https://www.facebook.com/bloodzlu5t/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-facebook"></i>
+            <span></span>
+          </a>
+          <a
+            href="https://github.com/NuntapongS"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-github"></i> <span></span>
+          </a>
+          <a
+            href="https://www.instagram.com/nuntapong.sr/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-instagram"></i> <span></span>
+          </a>
         </div>
       </div>
     </>

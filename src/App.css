@@ -156,9 +156,15 @@ b {
   margin-bottom: 10px;
 }
 
+.social span {
+  margin-left: 10px;
+}
+
 .footer {
-  text-align: center;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
   color: black;
   background-image: url(./image/ps-menu_1.jpg);
 }
