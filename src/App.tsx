@@ -28,7 +28,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-facebook fa-2xl"></i>
             <span></span>
           </a>
           <a
@@ -36,14 +36,14 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-github"></i> <span></span>
+            <i className="fa-brands fa-github fa-2xl"></i> <span></span>
           </a>
           <a
             href="https://www.instagram.com/nuntapong.sr/"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-instagram"></i> <span></span>
+            <i className="fa-brands fa-instagram fa-2xl"></i> <span></span>
           </a>
         </div>
       </div>
