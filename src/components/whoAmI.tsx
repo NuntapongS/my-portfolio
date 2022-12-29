@@ -25,10 +25,15 @@ const WhoAmI = () => {
       </div>
       <div className="head-content flex-reverse">
         <div>
-          📢 About Me
+          <h2 className="interest">
+            <i className="fa-solid fa-user fa-fw fa-beat"></i>About Me
+          </h2>
           <h2 className="content">{interview1.myInterview1}</h2>
           <h2 className="content">{interview2.myInterview2}</h2>
-          <h2 className="interest">💡 My Interesting</h2>
+          <h2 className="interest">
+            <i className="fa-regular fa-lightbulb fa-fw fa-beat"></i>My
+            Interesting
+          </h2>
           <li className="content">Full-stack Development</li>
           <li className="content">UX/UI</li>
           <li className="content">Communication Skill</li>
