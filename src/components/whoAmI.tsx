@@ -6,7 +6,7 @@ import { IMySkills } from "./mySkills";
 const WhoAmI = () => {
   const word: IMySkills = skills;
   return (
-    <div className="body">
+    <div id="who-am-i" className="body">
       <div className="head-content">
         <div>
           Hello World !
@@ -20,23 +20,25 @@ const WhoAmI = () => {
           <img src={profile1} className="img1" alt="profile1" />
         </div>
       </div>
-      <div className="head-content flex-reverse">
+      <div id="about-me" className="head-content flex-reverse">
         <div>
           <h2 className="interest">
             <i className="fa-solid fa-user fa-fw fa-beat"></i>About Me
           </h2>
           <h2 className="content">{word.myInterview1}</h2>
           <h2 className="content">{word.myInterview2}</h2>
-          <h2 className="interest">
-            <i className="fa-regular fa-lightbulb fa-fw fa-beat"></i>My
-            Interesting
-          </h2>
-          <li className="content">Full-stack Development</li>
-          <li className="content">UX/UI</li>
-          <li className="content">Communication Skill</li>
-          <li className="content">Scrum & Agile</li>
-          <li className="content">Mobile Development</li>
-          <li className="content">Automate Test</li>
+          <div id="my-interesting">
+            <h2 className="interest">
+              <i className="fa-regular fa-lightbulb fa-fw fa-beat"></i>My
+              Interesting
+            </h2>
+            <li className="content">Full-stack Development</li>
+            <li className="content">UX/UI</li>
+            <li className="content">Communication Skill</li>
+            <li className="content">Scrum & Agile</li>
+            <li className="content">Mobile Development</li>
+            <li className="content">Automate Test</li>
+          </div>
         </div>
         <div>
           {" "}

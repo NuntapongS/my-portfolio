@@ -12,7 +12,7 @@ const mySkills = () => {
   return (
     <div className="body">
       <div className="skill">My Skills</div>
-      <div className="">
+      <div id="my-skills">
         <li className="backend-language">
           Backend Skills : {word.backendSkills}
         </li>

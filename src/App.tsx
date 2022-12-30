@@ -7,16 +7,16 @@ function App() {
       <div className="header">My Portfolio</div>
       <div className="topnav">
         <b>
-          <a href="Intro">Intro</a>
+          <a href="#who-am-i">Intro</a>
         </b>
         <b>
-          <a href="Hello World">About Me</a>
+          <a href="#about-me">About Me</a>
         </b>
         <b>
-          <a href="My Adventure">My Interesting</a>
+          <a href="#my-interesting">My Interesting</a>
         </b>
         <b>
-          <a href="My Skills">My Skills</a>
+          <a href="#my-skills">My Skills</a>
         </b>
       </div>
       <WhoAmI />
