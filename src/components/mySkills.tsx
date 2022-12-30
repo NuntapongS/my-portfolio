@@ -1,20 +1,25 @@
-import {
-  default as backendSkills,
-  default as frontendSkills,
-} from "../lang/word.json";
+import skills from "../lang/word.json";
+
+export interface IMySkills {
+  backendSkills: string;
+  frontendSkills: string;
+  myInterview1: string;
+  myInterview2: string;
+}
 
 const mySkills = () => {
-  const backend: { backendSkills: string } = backendSkills;
-  const frontend: { frontendSkills: string } = frontendSkills;
+  const word: IMySkills = skills;
   return (
     <div className="body">
       <div className="skill">My Skills</div>
-      <li className="backend-language">
-        Backend Skills : {backend.backendSkills}
-      </li>
-      <li className="frontend-language">
-        Frontend Skills : {frontend.frontendSkills}
-      </li>
+      <div className="">
+        <li className="backend-language">
+          Backend Skills : {word.backendSkills}
+        </li>
+        <li className="frontend-language">
+          Frontend Skills : {word.frontendSkills}
+        </li>
+      </div>
     </div>
   );
 };
