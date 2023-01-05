@@ -153,12 +153,8 @@ b {
 }
 
 .social {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.social span {
-  margin-left: 10px;
+  display: flex;
+  gap: 16px;
 }
 
 .footer {
