@@ -28,7 +28,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-facebook fa-2xl"></i>
+            <i className="fa-brands fa-square-facebook fa-2xl"></i>
             <span></span>
           </a>
           <a
