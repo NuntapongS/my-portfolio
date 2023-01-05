@@ -36,7 +36,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-brands fa-github fa-2xl"></i> <span></span>
+            <i className="fa-brands fa-square-github fa-2xl"></i> <span></span>
           </a>
           <a
             href="https://www.instagram.com/nuntapong.sr/"
