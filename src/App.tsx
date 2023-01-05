@@ -45,6 +45,13 @@ function App() {
           >
             <i className="fa-brands fa-instagram fa-2xl"></i> <span></span>
           </a>
+          <a
+            href="mailto:nuntapong.sr@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-regular fa-envelope fa-2xl"></i> <span></span>
+          </a>
         </div>
       </div>
     </>
