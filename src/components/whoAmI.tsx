@@ -1,7 +1,7 @@
 import profile2 from "../image/15747616_1432756206764503_7783558084339154744_n.jpg";
 import profile1 from "../image/S__8454147.jpg";
 import skills from "../lang/word.json";
-import { IMySkills } from "./mySkills";
+import MySkills, { IMySkills } from "./mySkills";
 
 const WhoAmI = () => {
   const word: IMySkills = skills;
@@ -42,13 +42,7 @@ const WhoAmI = () => {
           <img src={profile2} className="circle-image" alt="profile2" />
         </div>
       </div>
-      <div className="landing-3">
-        <h1 className="title-landing">My Skill</h1>
-        <div className="text-content">
-          <p>{word.backendSkills}</p>
-          <p>{word.frontendSkills}</p>
-        </div>
-      </div>
+      <MySkills />
     </div>
   );
 };

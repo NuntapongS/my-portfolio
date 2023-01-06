@@ -8,7 +8,6 @@ function App() {
     <>
       <Navbar />
       <WhoAmI />
-      {/* <MySkills /> */}
       <Footer />
     </>
   );
