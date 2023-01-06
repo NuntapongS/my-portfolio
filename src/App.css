@@ -1,122 +1,42 @@
-.App {
-  text-align: center;
+.portfolio-body {
+  background-color: var(--main-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 8rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-1,
+.landing-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 600px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 600px;
 }
 
-.App-link {
-  color: #61dafb;
+.row-reverse {
+  flex-direction: row-reverse;
 }
 
-.body {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
+.circle-image {
+  border: 6px solid #FFCD15;
+  border-radius: 50%;
+  height: 350px;
+  object-fit: cover;
+  width: 370px;
 }
 
-.head-content {
-  color: #FFCD15;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 100px;
-  margin-left: 50px;
-  display: flex;
- }
-
- .head-content div:nth-child(1) {
-  display: flex;
-  flex-direction: column;
-  width: 50%;  
- }
-
- .head-content div:nth-child(2) {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-}
-
-.sub-content {
-  color: mediumspringgreen;
-  font-size: 36px;
-}
-
-.content {
-  color: white;
-  font-size: 18px;
-  margin-right: 18px;
-}
-
-.about-me {
-  color: #FFCD15;
-  font-size: 20px;
-  display: flex;
-  gap: 10px; 
-}
-
-.interest {
-  color: #FFCD15;
-  font-size: 20px;
-  display: flex;
-  gap: 10px;
-}
-
-.header {
-  text-align: center;
-  padding: 50px;
-  color: #FFCD15;
-  text-shadow: 4px 4px 7px mediumvioletred;
-  font-weight: bold;
-  font-size: 3.0em;
-  background-image: url(./image/black-and-green-modern-material-header-with-a-hexagonal-mesh-design-banner-with-polygonal-grid-and-blank-space-for-your-logo-abstract-website-design-vector.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.topnav {
-  overflow: hidden;
-  padding: 30px;
-  border-style: solid;
-  border-color: black;
-  background-image: url(./image/ps-menu_1.jpg);
-  text-align: right;
-  font-size: 15px;
-}
-
-@media only screen and (min-width: 100px) {
-  .topnav {
-    background-color: black;
-  }
-}
-
-.topnav a:hover {
-  color: mediumspringgreen;
-  border-style: static; 
-}
-
-@media only screen and (max-width: 550px){
-  .topnav a {
-    display: flex;
-  }
+.interest-content {
+  list-style-type: none;
 }
 
 a {
@@ -124,79 +44,16 @@ a {
   color: white;
 }
 
-b {
-  margin-right: 60px;
-}
-
-.img1 {
-  border: 6px solid #FFCD15;
-  border-radius: 50%;
-  height: 350px;
-  object-fit: cover;
-  background-image: url(./image/S__8454147.jpg);
-  margin-bottom: 50px;
-  margin-left: 100px;
-  width: 400px;
-}
-
-.img2 {
-  border: 6px solid #FFCD15;
-  border-radius: 50%;
-  height: 350px;
-  object-fit: scale-down;
-  background-image: url(./image/15747616_1432756206764503_7783558084339154744_n.jpg);
-  margin-bottom: 50px;
-  margin-left: 100px;
-  width: 400px;
-}
-
-.skill {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
-  color: mediumspringgreen;
-  margin-top: 50px;
-}
-
 .social {
   display: flex;
-  gap: 16px;
+  gap: 32px;
 }
 
 .footer {
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px;
-  color: black;
-  background-image: url(./image/ps-menu_1.jpg);
-}
-
-.flex-reverse {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.backend-language {
-  text-align: center;
-  color: white;
-  margin-top: 50px;
-  font-weight: bold;
-}
-
-.frontend-language {
-  text-align: center;
-  color: white;
-  margin-top: 50px;
-  font-weight: bold; 
-  margin-bottom: 50px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 16px;
+  height: 130px;
 }
