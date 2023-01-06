@@ -12,7 +12,11 @@ const WhoAmI = () => {
           Hello World !
           <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
           <h2 className="content">
-            I did this web for practicing my frontend skills.
+            <h2 className="interest">
+              <i className="fa-solid fa-user fa-fw fa-beat"></i>About Me
+            </h2>
+            <h2 className="content">{word.myInterview1}</h2>
+            <h2 className="content">{word.myInterview2}</h2>
           </h2>
         </div>
         <div>
@@ -22,11 +26,6 @@ const WhoAmI = () => {
       </div>
       <div id="about-me" className="head-content flex-reverse">
         <div>
-          <h2 className="interest">
-            <i className="fa-solid fa-user fa-fw fa-beat"></i>About Me
-          </h2>
-          <h2 className="content">{word.myInterview1}</h2>
-          <h2 className="content">{word.myInterview2}</h2>
           <div id="my-interesting">
             <h2 className="interest">
               <i className="fa-regular fa-lightbulb fa-fw fa-beat"></i>My
