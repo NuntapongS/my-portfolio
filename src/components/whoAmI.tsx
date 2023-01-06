@@ -17,6 +17,7 @@ const WhoAmI = () => {
             </h2>
             <h2 className="content">{word.myInterview1}</h2>
             <h2 className="content">{word.myInterview2}</h2>
+            <h2 className="content">{word.myInterview3}</h2>
           </h2>
         </div>
         <div>

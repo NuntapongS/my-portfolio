@@ -5,6 +5,7 @@ export interface IMySkills {
   frontendSkills: string;
   myInterview1: string;
   myInterview2: string;
+  myInterview3: string;
 }
 
 const mySkills = () => {
