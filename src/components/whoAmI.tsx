@@ -7,12 +7,12 @@ const WhoAmI = () => {
   const word: IMySkills = skills;
   return (
     <div id="who-am-i" className="body">
-      <div className="head-content">
+      <div id="about-me" className="head-content">
         <div>
           Hello World !
           <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
           <h2 className="content">
-            <h2 className="interest">
+            <h2 className="about-me">
               <i className="fa-solid fa-user fa-fw fa-beat"></i>About Me
             </h2>
             <h2 className="content">{word.myInterview1}</h2>
@@ -24,7 +24,7 @@ const WhoAmI = () => {
           <img src={profile1} className="img1" alt="profile1" />
         </div>
       </div>
-      <div id="about-me" className="head-content flex-reverse">
+      <div className="head-content flex-reverse">
         <div>
           <div id="my-interesting">
             <h2 className="interest">
