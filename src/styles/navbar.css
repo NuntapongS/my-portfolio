@@ -1,0 +1,24 @@
+.navbar {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 32px;
+}
+
+.nav-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-link {
+    padding: 24px 0;
+}
+
+.nav-link a:hover {
+    color: mediumspringgreen;
+    border-style: static; 
+}
+
