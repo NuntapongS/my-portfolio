@@ -6,44 +6,47 @@ import { IMySkills } from "./mySkills";
 const WhoAmI = () => {
   const word: IMySkills = skills;
   return (
-    <div id="who-am-i" className="body">
-      <div id="about-me" className="head-content">
-        <div>
-          Hello World !
-          <h1 className="sub-content">I am Nuntapong Siripanyawong</h1>
-          <h2 className="content">
-            <h2 className="about-me">
-              <i className="fa-solid fa-user fa-fw fa-beat"></i>About Me
-            </h2>
-            <h2 className="content">{word.myInterview1}</h2>
-            <h2 className="content">{word.myInterview2}</h2>
-            <h2 className="content">{word.myInterview3}</h2>
-            <h2 className="content">{word.myInterview4}</h2>
-          </h2>
+    <div className="portfolio-body">
+      <div className="landing-1" id="who-am-i">
+        <div className="text-content">
+          <h1 className="title-greeting">Hello, World!</h1>
+          <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
+          <p className="about-content">
+            <h1>About Me</h1>
+            {word.myInterview1}
+            <br />
+            {word.myInterview2}
+            <br />
+            {word.myInterview3}
+            <br />
+            {word.myInterview4}
+          </p>
         </div>
-        <div>
-          {" "}
-          <img src={profile1} className="img1" alt="profile1" />
+        <div className="image-content">
+          <img src={profile1} className="circle-image" alt="profile1" />
         </div>
       </div>
-      <div className="head-content flex-reverse">
-        <div>
-          <div id="my-interesting">
-            <h2 className="interest">
-              <i className="fa-regular fa-lightbulb fa-fw fa-beat"></i>My
-              Interesting
-            </h2>
-            <li className="content">Full-stack Development</li>
-            <li className="content">UX/UI</li>
-            <li className="content">Communication Skill</li>
-            <li className="content">Scrum & Agile</li>
-            <li className="content">Mobile Development</li>
-            <li className="content">Automate Test</li>
+      <div className="landing-2 row-reverse" id="my-interesting">
+        <div className="text-content">
+          <h1>My Interesting</h1>
+          <div className="interest-content">
+            <li>- Full-stack Development</li>
+            <li>- UX/UI</li>
+            <li>- Communication Skill</li>
+            <li>- Scrum & Agile</li>
+            <li>- Mobile Development</li>
+            <li>- Automate Test</li>
           </div>
         </div>
-        <div>
-          {" "}
-          <img src={profile2} className="img2" alt="profile2" />
+        <div className="image-content">
+          <img src={profile2} className="circle-image" alt="profile2" />
+        </div>
+      </div>
+      <div className="landing-3">
+        <h1 className="title-landing">My Skill</h1>
+        <div className="text-content">
+          <p>{word.backendSkills}</p>
+          <p>{word.frontendSkills}</p>
         </div>
       </div>
     </div>
