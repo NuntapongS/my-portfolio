@@ -1,26 +1,12 @@
 import "./App.css";
-import MySkills from "./components/mySkills";
+import Navbar from "./components/navbar";
 import WhoAmI from "./components/whoAmI";
 function App() {
   return (
     <>
-      <div className="header">My Portfolio</div>
-      <div className="topnav">
-        <b>
-          <a href="#who-am-i">Intro</a>
-        </b>
-        <b>
-          <a href="#about-me">About Me</a>
-        </b>
-        <b>
-          <a href="#my-interesting">My Interesting</a>
-        </b>
-        <b>
-          <a href="#my-skills">My Skills</a>
-        </b>
-      </div>
+      <Navbar />
       <WhoAmI />
-      <MySkills />
+      {/* <MySkills /> */}
       <div className="footer">
         <div className="social">
           <a
