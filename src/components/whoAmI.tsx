@@ -45,6 +45,11 @@ const WhoAmI = () => {
             <li> Mobile Development</li>
             <li> Automate Test</li>
           </div>
+
+          <h2 className="title-content">
+            <i className="fa-solid fa-file fa-fw fa-beat"></i>Education Record
+            <i className="fa-solid fa-file"></i>
+          </h2>
         </div>
         <div className="image-content">
           <img src={profile2} className="circle-image" alt="profile2" />
