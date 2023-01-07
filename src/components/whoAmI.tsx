@@ -12,8 +12,8 @@ const WhoAmI = () => {
         <div className="text-content">
           <h1 className="title-greeting">Hello, World!</h1>
           <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
-          <p className="about-content">
-            <h2>
+          <p id="about-me" className="about-content">
+            <h2 className="title-about-me">
               <i className="fa-sharp fa-solid fa-ghost fa-fw"></i>About Me
             </h2>
             {word.myInterview1}
@@ -30,7 +30,7 @@ const WhoAmI = () => {
         </div>
       </div>
       <div className="landing-2 row-reverse" id="my-interesting">
-        <div className="text-content">
+        <div id="my-interesting" className="text-content">
           <h1>My Interesting</h1>
           <div className="interest-content">
             <li>- Full-stack Development</li>
