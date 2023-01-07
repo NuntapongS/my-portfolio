@@ -8,14 +8,14 @@ const WhoAmI = () => {
   const word: IMySkills = skills;
   return (
     <div className="portfolio-body">
-      <div className="landing-1" id="who-am-i">
+      <div className="landing-1" id="about-me">
         <div className="text-content">
           <h1 className="title-greeting">Hello, World!</h1>
           <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
-          <p id="about-me" className="about-content">
-            <h2 className="title-about-me">
-              <i className="fa-sharp fa-solid fa-ghost fa-fw"></i>About Me
-            </h2>
+          <h2 className="title-about-me">
+            <i className="fa-sharp fa-solid fa-ghost fa-fw"></i>About Me
+          </h2>
+          <p className="about-content">
             {word.myInterview1}
             <br />
             {word.myInterview2}
