@@ -10,10 +10,11 @@ const WhoAmI = () => {
     <div className="portfolio-body">
       <div className="landing-1" id="about-me">
         <div className="text-content">
-          <h1 className="title-greeting">Hello, World!</h1>
+          <h1 className="title-greeting">👋 Hello, World!</h1>
           <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
           <h2 className="title-about-me">
-            <i className="fa-sharp fa-solid fa-ghost fa-fw"></i>About Me
+            <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat"></i>About Me
+            <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat"></i>
           </h2>
           <p className="about-content">
             {word.myInterview1}
