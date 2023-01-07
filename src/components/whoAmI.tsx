@@ -13,7 +13,9 @@ const WhoAmI = () => {
           <h1 className="title-greeting">Hello, World!</h1>
           <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
           <p className="about-content">
-            <h1>About Me</h1>
+            <h2>
+              <i className="fa-sharp fa-solid fa-ghost fa-fw"></i>About Me
+            </h2>
             {word.myInterview1}
             <br />
             {word.myInterview2}
