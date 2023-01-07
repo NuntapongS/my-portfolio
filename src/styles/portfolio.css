@@ -1,13 +1,13 @@
 .title-greeting {
-    color: white;
-    text-shadow: 6px 6px 5px red;
+    color: #7864FF;
+    text-shadow: 6px 2px 5px white;
     font-size: 50px;
 }
 
 .title-name {
-    color: mediumspringgreen;
+    color: #17A5E1;
 }
 
 .title-about-me {
-    color: #D89128;
+    color: #2C2C6C;
 }
