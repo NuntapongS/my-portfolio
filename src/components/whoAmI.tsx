@@ -12,7 +12,7 @@ const WhoAmI = () => {
         <div className="text-content">
           <h1 className="title-greeting">👋 Hello, World!</h1>
           <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
-          <h2 className="title-about-me">
+          <h2 className="title-content">
             <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat"></i>About Me
             <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat"></i>
           </h2>
@@ -32,7 +32,11 @@ const WhoAmI = () => {
       </div>
       <div className="landing-2 row-reverse" id="my-interesting">
         <div id="my-interesting" className="text-content">
-          <h1>My Interesting</h1>
+          <h2 className="title-content">
+            <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat"></i>My
+            Interesting
+            <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat"></i>
+          </h2>
           <div className="interest-content">
             <li>- Full-stack Development</li>
             <li>- UX/UI</li>
