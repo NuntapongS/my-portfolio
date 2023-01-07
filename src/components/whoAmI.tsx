@@ -33,6 +33,11 @@ const WhoAmI = () => {
       <div className="landing-2 row-reverse" id="my-interesting">
         <div id="my-interesting" className="text-content">
           <h2 className="title-content">
+            <i className="fa-solid fa-file fa-fw fa-beat"></i>Education Record
+            <i className="fa-solid fa-file fa-fw fa-beat "></i>
+          </h2>
+          <div className="content">test</div>
+          <h2 className="title-content">
             <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat"></i>My
             Interesting
             <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat"></i>
@@ -45,11 +50,6 @@ const WhoAmI = () => {
             <li> Mobile Development</li>
             <li> Automate Test</li>
           </div>
-
-          <h2 className="title-content">
-            <i className="fa-solid fa-file fa-fw fa-beat"></i>Education Record
-            <i className="fa-solid fa-file"></i>
-          </h2>
         </div>
         <div className="image-content">
           <img src={profile2} className="circle-image" alt="profile2" />
