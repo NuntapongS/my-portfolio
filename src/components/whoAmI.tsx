@@ -16,7 +16,7 @@ const WhoAmI = () => {
             <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat"></i>About Me
             <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat"></i>
           </h2>
-          <p className="about-content">
+          <p className="content">
             {word.myInterview1}
             <br />
             {word.myInterview2}
@@ -37,13 +37,13 @@ const WhoAmI = () => {
             Interesting
             <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat"></i>
           </h2>
-          <div className="interest-content">
-            <li>- Full-stack Development</li>
-            <li>- UX/UI</li>
-            <li>- Communication Skill</li>
-            <li>- Scrum & Agile</li>
-            <li>- Mobile Development</li>
-            <li>- Automate Test</li>
+          <div className="content">
+            <li> Full-stack Development</li>
+            <li> UX/UI</li>
+            <li> Communication Skill</li>
+            <li> Scrum & Agile</li>
+            <li> Mobile Development</li>
+            <li> Automate Test</li>
           </div>
         </div>
         <div className="image-content">
