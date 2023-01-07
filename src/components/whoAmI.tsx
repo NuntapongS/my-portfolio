@@ -1,6 +1,7 @@
 import profile2 from "../image/15747616_1432756206764503_7783558084339154744_n.jpg";
 import profile1 from "../image/S__8454147.jpg";
 import skills from "../lang/word.json";
+import "../styles/portfolio.css";
 import MySkills, { IMySkills } from "./mySkills";
 
 const WhoAmI = () => {
