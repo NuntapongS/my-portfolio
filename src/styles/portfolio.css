@@ -5,7 +5,7 @@
 }
 
 .title-name {
-    color: #BB30E1;
+    animation: kf-color-mix 1s linear infinite alternate;
     font-size: 40px;
 }
 
@@ -17,3 +17,9 @@
 .content {
     font-size: 24px;
 }
+
+@keyframes kf-color-mix {
+    0% { color: #DF2DA8 }
+    100% { color: #2148E6 }
+  }
+  
