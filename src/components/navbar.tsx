@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import "../styles/navbar.css";
 
 const Navbar = () => {
-  const [sticky, setSticky] = useState(false);
+  const [, setSticky] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
