@@ -1,7 +1,19 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import "../styles/navbar.css";
 
 const Navbar = () => {
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 200);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
   return (
     <>
       <div className="navbar">
