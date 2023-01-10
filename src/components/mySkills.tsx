@@ -12,7 +12,7 @@ export interface IMySkills {
 const MySkills = () => {
   const word: IMySkills = skills;
   return (
-    <div className="landing-3">
+    <div id="my-skills" className="landing-3">
       <h1 className="title-skills">My Skills</h1>
       <div className="text-content">
         <p>{word.backendSkills}</p>
