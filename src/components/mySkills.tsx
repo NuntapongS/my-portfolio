@@ -14,7 +14,7 @@ const MySkills = () => {
   return (
     <div id="my-skills" className="landing-3">
       <h1 className="title-skills">My Skills</h1>
-      <div className="text-content">
+      <div className="content">
         <p>{word.backendSkills}</p>
         <p>{word.frontendSkills}</p>
       </div>
