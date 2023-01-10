@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import "../styles/navbar.css";
 
 const Navbar = () => {
@@ -6,13 +7,37 @@ const Navbar = () => {
       <div className="navbar">
         <ul className="nav-items">
           <li className="nav-link">
-            <a href="#about-me">About Me</a>
+            <Link
+              to="about-me"
+              spy={true}
+              smooth={true}
+              offset={30}
+              duration={500}
+            >
+              About Me
+            </Link>
           </li>
           <li className="nav-link">
-            <a href="#my-interesting">My Intersting</a>
+            <Link
+              to="my-interesting"
+              spy={true}
+              smooth={true}
+              offset={30}
+              duration={500}
+            >
+              My Intersting
+            </Link>
           </li>
           <li className="nav-link">
-            <a href="#my-skills">My Skills</a>
+            <Link
+              to="my-skills"
+              spy={true}
+              smooth={true}
+              offset={30}
+              duration={500}
+            >
+              My Skills
+            </Link>
           </li>
         </ul>
       </div>
