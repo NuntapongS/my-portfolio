@@ -8,7 +8,7 @@ const WhoAmI = () => {
   const word: IMySkills = skills;
   return (
     <div className="portfolio-body">
-      <div className="landing-1" id="about-me">
+      <div id="about-me" className="landing-1">
         <div className="text-content">
           <h1 className="title-greeting">👋 Hello, World!</h1>
           <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
