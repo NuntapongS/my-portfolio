@@ -36,7 +36,12 @@ const WhoAmI = () => {
             <i className="fa-solid fa-file fa-fw fa-beat"></i>Education Record
             <i className="fa-solid fa-file fa-fw fa-beat "></i>
           </h2>
-          <div className="content">test</div>
+          <p className="content">
+            {word.educationRecord1}
+            <br />
+            {word.educationRecord2}
+            <br />
+          </p>
           <h2 className="title-content">
             <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat"></i>My
             Interesting

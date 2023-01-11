@@ -7,6 +7,8 @@ export interface IMySkills {
   myInterview2: string;
   myInterview3: string;
   myInterview4: string;
+  educationRecord1: string;
+  educationRecord2: string;
 }
 
 const MySkills = () => {
