@@ -13,8 +13,9 @@ const WhoAmI = () => {
           <h1 className="title-greeting">👋 Hello, World!</h1>
           <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
           <h2 className="title-content">
-            <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat"></i>About Me
-            <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat"></i>
+            <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat fa-2xs"></i>
+            About Me
+            <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat fa-2xs"></i>
           </h2>
           <p className="content">
             {word.myInterview1}
@@ -33,8 +34,9 @@ const WhoAmI = () => {
       <div className="landing-2 row-reverse" id="education-interesting">
         <div className="text-content">
           <h2 className="title-content">
-            <i className="fa-solid fa-file fa-fw fa-beat"></i>Education Record
-            <i className="fa-solid fa-file fa-fw fa-beat "></i>
+            <i className="fa-solid fa-file fa-fw fa-beat fa-2xs"></i>Education
+            Record
+            <i className="fa-solid fa-file fa-fw fa-beat fa-2xs"></i>
           </h2>
           <p className="content">
             {word.educationRecord1}
@@ -43,9 +45,9 @@ const WhoAmI = () => {
             <br />
           </p>
           <h2 className="title-content">
-            <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat"></i>My
-            Interesting
-            <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat"></i>
+            <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat fa-2xs"></i>
+            My Interesting
+            <i className="fa-sharp fa-solid fa-lightbulb fa-fw fa-beat fa-2xs"></i>
           </h2>
           <div className="content">
             <li> Full-stack Development</li>
