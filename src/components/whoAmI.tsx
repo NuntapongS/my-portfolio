@@ -30,8 +30,8 @@ const WhoAmI = () => {
           <img src={profile1} className="circle-image" alt="profile1" />
         </div>
       </div>
-      <div className="landing-2 row-reverse" id="my-interesting">
-        <div id="my-interesting" className="text-content">
+      <div className="landing-2 row-reverse" id="education-interesting">
+        <div className="text-content">
           <h2 className="title-content">
             <i className="fa-solid fa-file fa-fw fa-beat"></i>Education Record
             <i className="fa-solid fa-file fa-fw fa-beat "></i>

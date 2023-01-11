@@ -32,13 +32,13 @@ const Navbar = () => {
           </li>
           <li className="nav-link">
             <Link
-              to="my-interesting"
+              to="education-interesting"
               spy={true}
               smooth={true}
               offset={10}
               duration={500}
             >
-              My Intersting
+              Education & Interesting
             </Link>
           </li>
           <li className="nav-link">
