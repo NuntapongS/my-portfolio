@@ -11,7 +11,10 @@ const WhoAmI = () => {
       <div id="about-me" className="landing-1">
         <div className="text-content">
           <h1 className="title-greeting">👋 Hello, World!</h1>
-          <h1 className="title-name">I'm Nuntapong Siripanyawong</h1>
+          <h1 className="title-name">
+            I'm Nuntapong Siripanyawong
+            <span className="blink">|</span>
+          </h1>
           <h2 className="title-content">
             <i className="fa-sharp fa-solid fa-ghost fa-fw fa-beat fa-2xs"></i>
             About Me

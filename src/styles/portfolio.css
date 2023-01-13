@@ -14,6 +14,19 @@
     font-size: 32px;
 }
 
+.blink {
+    animation: blink 1s infinite;
+    font-weight: 200;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    49% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
 .title-skills {
     color: var(--title-color);
     font-size: 32px;
