@@ -38,7 +38,7 @@ const Navbar = () => {
               offset={10}
               duration={500}
             >
-              Education & Interesting
+              Education Record & Interesting
             </Link>
           </li>
           <li className="nav-link">
