@@ -36,7 +36,7 @@ const Footer = () => {
           >
             <i className="fa-solid fa-envelope fa-2xl"></i>
           </a>
-          <a href="#linkin" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
             <i className="fa-brands fa-linkedin fa-2xl"></i>
           </a>
         </div>
