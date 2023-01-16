@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="logo">
+        <div>
           <img src={mainLogo} alt="PAT" width={50} />
         </div>
         <ul className="nav-items">
