@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import mainLogo from "../image/Pat-Water-Logo.png";
 import "../styles/navbar.css";
 
 const Navbar = () => {
@@ -17,7 +18,9 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="logo">PAT</div>
+        <div className="logo">
+          <img src={mainLogo} alt="PAT" width={50} />
+        </div>
         <ul className="nav-items">
           <li className="nav-link">
             <Link
