@@ -13,7 +13,7 @@
 @keyframes kf-color-mix {
     0% { color: #DF2DA8 }
     100% { color: #2148E6 }
-  }
+}
 
 .title-content {
     color: var(--title-color);
